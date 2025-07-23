@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Tammu ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cake Section -->
+    <section id="cake-section" class="section active">
+        <div class="background-hearts"></div>
+        <div class="cake-container" id="cakeContainer">
+            <!-- Beautiful Birthday Cake -->
+            <div class="birthday-cake" id="cake2d">
+                <!-- Cake Base/Plate -->
+                <div class="cake-plate"></div>
+                
+                <!-- Bottom Tier -->
+                <div class="cake-tier bottom-tier">
+                    <div class="tier-body"></div>
+                    <div class="tier-frosting"></div>
+                    <div class="tier-border"></div>
+                </div>
+                
+                <!-- Middle Tier -->
+                <div class="cake-tier middle-tier">
+                    <div class="tier-body"></div>
+                    <div class="tier-frosting"></div>
+                    <div class="tier-border"></div>
+                </div>
+                
+                <!-- Top Tier -->
+                <div class="cake-tier top-tier">
+                    <div class="tier-body"></div>
+                    <div class="tier-frosting"></div>
+                    <div class="tier-border"></div>
+                </div>
+                
+                <!-- Candles on Top -->
+                <div class="candles-group">
+                    <div class="birthday-candle">
+                        <div class="candle-flame"></div>
+                        <div class="candle-stick"></div>
+                        <div class="candle-wax"></div>
+                    </div>
+                    <div class="birthday-candle">
+                        <div class="candle-flame"></div>
+                        <div class="candle-stick"></div>
+                        <div class="candle-wax"></div>
+                    </div>
+                    <div class="birthday-candle">
+                        <div class="candle-flame"></div>
+                        <div class="candle-stick"></div>
+                        <div class="candle-wax"></div>
+                    </div>
+                </div>
+                
+                <!-- Decorative Elements -->
+                <div class="cake-decorations">
+                    <!-- Roses -->
+                    <div class="decoration-rose rose-1"></div>
+                    <div class="decoration-rose rose-2"></div>
+                    <div class="decoration-rose rose-3"></div>
+                    
+                    <!-- Pearls -->
+                    <div class="decoration-pearl pearl-1"></div>
+                    <div class="decoration-pearl pearl-2"></div>
+                    <div class="decoration-pearl pearl-3"></div>
+                    <div class="decoration-pearl pearl-4"></div>
+                    <div class="decoration-pearl pearl-5"></div>
+                    <div class="decoration-pearl pearl-6"></div>
+                    
+                    <!-- Cherry on top -->
+                    <div class="cherry-decoration">
+                        <div class="cherry-fruit"></div>
+                        <div class="cherry-stem"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <h1 class="birthday-message">Happy Birthday Tammu! 🎉</h1>
+            <button class="surprise-btn" id="surpriseBtn">Click me for surprise ✨</button>
+        </div>
+        <div class="explosion-container" id="explosionContainer"></div>
+        
+        <!-- Redesigned Burst Celebration -->
+        <div class="celebration-overlay" id="celebrationOverlay">
+            <div class="celebration-content">
+                <!-- Confetti Background -->
+                <div class="confetti-container">
+                    <div class="confetti"></div>
+                    <div class="confetti"></div>
+                    <div class="confetti"></div>
+                    <div class="confetti"></div>
+                    <div class="confetti"></div>
+                    <div class="confetti"></div>
+                    <div class="confetti"></div>
+                    <div class="confetti"></div>
+                </div>
+                
+                <!-- Main Celebration Message -->
+                <div class="celebration-message">
+                    <h1 class="burst-title">🎉 SURPRISE! 🎉</h1>
+                    <div class="main-message">
+                        <p class="message-line-1">Bura naa maane,</p>
+                        <p class="message-line-2">Aapka birthday hain Madam!</p>
+                        <div class="cake-emoji">🎂</div>
+                    </div>
+                    
+                    <!-- Animated Birthday Wishes -->
+                    <div class="animated-wishes">
+                        <!-- Wishes removed as requested -->
+                    </div>
+                </div>
+                
+                <!-- Floating Elements -->
+                <div class="floating-elements">
+                    <div class="floating-heart">💖</div>
+                    <div class="floating-star">⭐</div>
+                    <div class="floating-balloon">🎈</div>
+                    <div class="floating-gift">🎁</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Split Screen Section -->
+    <section id="split-section" class="section">
+        <div class="split-container">
+            <div class="split-left" id="splitLeft">
+                <h2>Aapki Yaade 📸</h2>
+                <p>Click to see all our beautiful memories</p>
+                <button class="enter-btn" onclick="showMemories()">Enter ➡️</button>
+            </div>
+            <div class="split-right" id="splitRight">
+                <h2>Aapke favorite ki Dil ki Baate 💕</h2>
+                <p>My thoughts and feelings for you</p>
+                <button class="enter-btn" onclick="showMessages()">Enter ➡️</button>
+            </div>
+        </div>
+        <button class="back-btn" onclick="goBack('cake')">← Back to Cake</button>
+    </section>
+
+    <!-- Memories Section -->
+    <section id="memories-section" class="section">
+        <div class="memories-container">
+            <!-- Beautiful Memory Book -->
+            <div class="memory-book" id="memoryBook">
+                <!-- Book Cover -->
+                <div class="book-cover-wrapper" id="bookCoverWrapper">
+                    <div class="book-cover-front">
+                        <div class="cover-title">
+                            <h2>Your Beautiful</h2>
+                            <h3>Memories</h3>
+                            <div class="cover-heart">💕</div>
+                        </div>
+                        <div class="cover-decoration">
+                            <div class="decoration-corner top-left"></div>
+                            <div class="decoration-corner top-right"></div>
+                            <div class="decoration-corner bottom-left"></div>
+                            <div class="decoration-corner bottom-right"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Book Pages Container -->
+                <div class="pages-container" id="pagesContainer">
+                    <!-- Pages will be dynamically generated -->
+                </div>
+                
+                <!-- Book Spine -->
+                <div class="book-spine-decoration"></div>
+            </div>
+            
+            <!-- Navigation Controls -->
+            <div class="memory-controls">
+                <button class="memory-nav-btn prev-btn" id="memoryPrevBtn" onclick="previousMemoryPage()">
+                    <span class="btn-icon">❮</span>
+                    <span class="btn-text">Previous</span>
+                </button>
+                
+                <div class="page-indicator">
+                    <span class="current-page" id="currentPageNum">Cover</span>
+                    <span class="page-separator">/</span>
+                    <span class="total-pages" id="totalPagesNum">33</span>
+                </div>
+                
+                <button class="memory-nav-btn next-btn" id="memoryNextBtn" onclick="nextMemoryPage()">
+                    <span class="btn-text">Next</span>
+                    <span class="btn-icon">❯</span>
+                </button>
+            </div>
+        </div>
+        <button class="back-btn" onclick="goBack('split')">← Back</button>
+    </section>
+
+    <!-- Messages Section -->
+    <section id="messages-section" class="section">
+        <div class="thoughts-container">
+            <!-- Beautiful Love Letter -->
+            <div class="love-letter" id="loveLetter">
+                <!-- Letter Header -->
+                <div class="letter-header">
+                    <div class="header-decoration">
+                        <div class="heart-border">💕</div>
+                        <h1 class="letter-title">Happy Birthday Meri Tammu</h1>
+                        <div class="heart-border">💕</div>
+                    </div>
+                    <div class="date-stamp">With All My Love • Forever Yours</div>
+                </div>
+                
+                <!-- Letter Content -->
+                <div class="letter-content">
+                    <div class="message-paragraph">
+                        <p class="opening-line">Happy birthday meri tammu.</p>
+                        <p>Ye din tere liye jitna khaas usse kahi jyada mere liye, its like m apna bday mana raha hu kyunki m apne bday m itna khush nhi hota hu jitna tere bday m rehta hu.</p>
+                    </div>
+                    
+                    <div class="message-paragraph">
+                        <p>M bas chahta hu ki m harr bday m tere saath rahu, tere saath cake kaatu, tereko dudh se nahalau, terkeo scooty m ghumau, tere saath dance karu, daaru piu, sab kuch tammu.</p>
+                    </div>
+                    
+                    <div class="message-paragraph">
+                        <p>Its like a really important event for me, and to be not there with you really upsets me. Bohot khaas h tu mere liye and i wish m tere harr bday m saath rahu.</p>
+                    </div>
+                    
+                    <div class="message-paragraph">
+                        <p class="love-declaration">I really love you tammu. Happy birthday Urvashi and one last thing...</p>
+                    </div>
+                    
+                    <!-- Musical Section -->
+                    <div class="musical-section">
+                        <div class="music-player-wrapper">
+                            <button class="play-song-btn" id="playSongBtn" onclick="playUrvashiSong()">
+                                <span class="play-icon">🎵</span>
+                                <span class="song-text">URVASHI URVASHI TAKE IT EASY URVASHIIIII!!!</span>
+                                <span class="play-icon">🎵</span>
+                            </button>
+                            <div class="music-visualizer" id="musicVisualizer">
+                                <div class="sound-bar"></div>
+                                <div class="sound-bar"></div>
+                                <div class="sound-bar"></div>
+                                <div class="sound-bar"></div>
+                                <div class="sound-bar"></div>
+                            </div>
+                        </div>
+                        <audio id="urvashiAudio" preload="auto">
+                            <source src="Urvashi Video ｜ Shahid Kapoor ｜ Kiara Advani ｜ Yo Yo Honey Singh ｜ Bhushan Kumar ｜ DirectorGifty.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+                
+                <!-- Letter Footer -->
+                <div class="letter-footer">
+                    <div class="signature-section">
+                        <div class="signature-line">Forever yours,</div>
+                        <div class="signature-name">With all my love ❤️</div>
+                    </div>
+                    <div class="letter-decoration">
+                        <div class="decoration-flourish">🌹</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="back-btn" onclick="goBack('split')">← Back</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
